@@ -1,0 +1,56 @@
+.cv-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 782px;
+  height: 971px;
+  border: 1px solid;
+  overflow: auto;
+}
+
+.header-cv {
+  padding: 25px;
+}
+.header-cv h1 {
+  display: flex;
+  justify-content: center;
+}
+.header-contact {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  padding: 5px;
+}
+.main-cv {
+  padding: 25px;
+}
+.group-experiences {
+  padding: 15px;
+  display: flex;
+  gap: 70px;
+  border-bottom: 1px solid;
+  margin-bottom: 10px;
+}
+.group-experiences-info {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.important-info {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+@media (max-width: 782px) {
+  .cv-container {
+    width: 391px;
+    height: 651px;
+  }
+}

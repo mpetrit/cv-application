@@ -1,0 +1,23 @@
+.app-container {
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.edit-section {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+  padding: 30px;
+}
+footer {
+  width: 100%;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+}
